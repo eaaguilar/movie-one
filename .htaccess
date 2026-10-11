@@ -1,0 +1,4 @@
+# Optional Apache protection: deny direct web access to the credential file.
+<Files "users.php">
+    Require all denied
+</Files>
